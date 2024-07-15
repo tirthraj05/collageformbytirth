@@ -1,0 +1,89 @@
+<Html>  
+    <head>   
+    <title>  
+    Registration Page  
+    </title>  
+    </head>  
+    <style>
+
+    #form {
+    background : Lightskyblue;
+    border : 3px solid black;
+    border: 1px solid black;
+    height: 550px;
+    width: 350px;
+    border-radius: 7px;
+    }
+
+    .brt {
+            color: rgb(73, 73, 253);
+            background-color: rgb(255, 247, 131);
+            font-size: 23px;
+            padding: 1%;
+            border-radius: 10px;
+            /* margin: 27px 6px 17px 292px; */
+            font-family: cursive;
+            cursor: pointer;
+        }
+    </style>
+
+    <body id="form">  
+    <div id="Databox">
+        <h1>Registration Form</h1>
+    </div>
+
+    <form>  
+        <div>
+            <label for="name"><strong> &nbsp;First Name:</strong></label>
+            <input type="text" id="name" name="MyName" placeholder="Write Your Name">
+        </div>
+        <br>
+        <div>
+            <label id="lname"><strong> &nbsp;Last Name:</strong></label>
+            <input type="text" name="MyName" placeholder="Write Your Name">
+        </div>
+        <br>
+        <div>
+
+            <strong> &nbsp;Your mail Id:</strong><input type="email" id="email" name="MyEmailID"
+                placeholder="Write Your Email ID">
+        </div><br>
+        <div>
+
+            <strong> &nbsp;Date of Date:</strong><input type="date" id="date" name="Mydate"
+                placeholder="Write Todays Date">
+        </div><br>
+        <div>
+            <label>   
+                &nbsp; <b>Phone</b>
+                </label>  
+                <input type="text" name="country code"  value="+91" size="2"/>   
+                <input type="text" name="phone" size="10" placeholder="9965874214"/> <br> <br>  
+            <strong> &nbsp;Are you eligible:</strong><input type="checkbox" id="eligible" name="mytik">
+        </div><br>
+        <div>
+            <label><strong> &nbsp;Gender:</strong></label>
+            <input type="radio" id="male" name="MyGender" value="male">
+            <label for="male"><strong>Male</strong></label>
+            <input type="radio" id="female" name="MyGender" value="female">
+            <label for="female"><strong>Female</strong></label>
+            <input type="radio" id="other" name="MyGender" value="other">
+            <label for="other"><strong>Other</strong></label>
+        </div>
+        <br>
+        <div>
+            <label for="about"> <strong>&nbsp;Write about yourself:</strong></label><br>
+            <textarea id="about" name="Mytext" cols="30" rows="3" placeholder="Write about your self."></textarea>
+        </div>        <br>
+    <b>Password:</b>    
+    <input type="Password" id="pass" name="pass"> <br>   
+    <br>
+     <b>Re-type password:</b>  
+    <input type="Password" id="repass" name="repass"> <br> <br>  
+    <div>
+        <input type="submit" value="Submit now" class="brt">
+        <input type="reset" value="Reset now" class="brt">
+    </div>
+    </form>  
+    </body>  
+    </html>  
