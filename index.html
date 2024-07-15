@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Data</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+
+</head>
+
+<body>
+    <div id="Databox">
+        <h1>Bio Data Form.</h1>
+    </div>
+    <div class="Dataform">
+
+        
+        <form action="Backend.php">
+            <div>
+                <label for="name"><strong> &nbsp;First Name:</strong></label>
+                <input type="text" id="name" name="MyName" placeholder="Write Your Name">
+            </div>
+            <br>
+            <div>
+                <label id="lname"><strong> &nbsp;Last Name:</strong></label>
+                <input type="text" name="MyName" placeholder="Write Your Name">
+            </div>
+            <br>
+            <div>
+                <strong> &nbsp;Your Role:</strong> <input type="text" id="role" name="MyRol"
+                    placeholder="Write Your Rol">
+            </div><br>
+            <div>
+                <strong> &nbsp;Website:</strong> <input type="text" name="website"
+                    placeholder="Write Your Website Name">
+            </div>
+            <br>
+            <div>
+
+                <strong> &nbsp;Your mail Id:</strong><input type="email" id="email" name="MyEmailID"
+                    placeholder="Write Your Email ID">
+            </div><br>
+            <div>
+
+                <strong> &nbsp;Today Date:</strong><input type="date" id="date" name="Mydate"
+                    placeholder="Write Todays Date">
+            </div><br>
+            <div>
+
+                <strong> &nbsp;This Time:</strong> <input type="time" id="time" name="Mytime"
+                    placeholder="Write current Time">
+            </div><br>
+            <div>
+
+                <strong> &nbsp;Bonus:</strong> <input type="number" id="bonus" name="Mynumber"
+                    placeholder="Write Your Bonus">
+            </div><br>
+            <div>
+
+                <strong> &nbsp;Are you eligible:</strong><input type="checkbox" id="eligible" name="mytik">
+            </div><br>
+            <div>
+                <label><strong> &nbsp;Gender:</strong></label>
+                <input type="radio" id="male" name="MyGender" value="male">
+                <label for="male"><strong>Male</strong></label>
+                <input type="radio" id="female" name="MyGender" value="female">
+                <label for="female"><strong>Female</strong></label>
+                <input type="radio" id="other" name="MyGender" value="other">
+                <label for="other"><strong>Other</strong></label>
+            </div>
+            <div>
+                <label for="about"> <strong>&nbsp;Write about yourself:</strong></label><br>
+                <textarea id="about" name="Mytext" cols="50" rows="10"></textarea>
+            </div>
+            <div>
+                <details>
+                    <summary id="car"> &nbsp;Car:</summary>You come to my office by ussing the office car.
+                </details> <select id="car" name="Mycar">
+                    <option value="Ind">Indicaz</option>
+                    <option value="Swi">Swift</option>
+                    <option value="mg">MG</option>
+                </select>
+
+                <br>
+                <br>
+            </div>
+            <div>
+                <input type="submit" value="Submit now" class="brt">
+                <input type="reset" value="Reset now" class="brt">
+            </div>
+        </form>
+        <div id="TG">
+            <h3>This Form Made by Tirth Gajera.</h3>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
